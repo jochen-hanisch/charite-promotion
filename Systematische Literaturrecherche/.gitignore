@@ -1,0 +1,8 @@
+*.bib
+*.csv
+*.html
+*.json
+*.png
+__pycache__/
+.DS_Store
+.vscode/
