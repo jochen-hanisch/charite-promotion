@@ -1,8 +1,24 @@
+# Bibliographie- und Datendateien
 *.bib
 *.csv
-*.html
 *.json
+*.html
 *.png
+
+# Python-Cache und Bytecode
 __pycache__/
+*.py[cod]
+
+# macOS-spezifische Dateien
 .DS_Store
+.CFUserTextEncoding
+*.AppleDouble
+
+# VS Code Einstellungen
 .vscode/
+
+# Jupyter Artefakte (optional)
+.ipynb_checkpoints/
+
+# Logdateien
+*.log
