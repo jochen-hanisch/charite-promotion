@@ -22,3 +22,7 @@ __pycache__/
 
 # Logdateien
 *.log
+
+# Lokale Konfigurationen (nicht in Git einchecken)
+config_netzwerk.py
+config_korrelation.py
