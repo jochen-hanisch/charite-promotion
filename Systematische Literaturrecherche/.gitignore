@@ -25,3 +25,4 @@ __pycache__/
 # Lokale Konfigurationen (nicht in Git einchecken)
 config_netzwerk.py
 config_korrelation.py
+config_deskriptive_literaturauswahl.py
