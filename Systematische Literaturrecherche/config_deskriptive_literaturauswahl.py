@@ -1,7 +1,7 @@
 # Konfiguration für deskriptive-literaturauswahl.py
 
 # Theme: "light" oder "dark"
-theme = "light"
+theme = "dark"
 
 # Exportsteuerung
 export_fig_visual = False  # Steuerung, ob Visualisierungen exportiert werden
