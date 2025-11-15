@@ -6,13 +6,16 @@ cd "$PROJECT_ROOT"
 
 pandoc \
   dissertation.md \
-  chapters/01_einleitung_und_theoretischer_rahmen.md \
-  chapters/02_theorieteil.md \
-  chapters/03_forschungsgegenstand.md \
-  chapters/04_methodologie.md \
-  chapters/05_ergebnisse.md \
-  chapters/06_diskussion.md \
-  chapters/07_conclusio.md \
+  "04 Kapitelstruktur/04-01 Einleitung/04-01 Einleitung.md" \
+  "04 Kapitelstruktur/04-02 Theorieteil/04-02 Theorieteil.md" \
+  "04 Kapitelstruktur/04-03 Forschungsgegenstand/04-03 Forschungsgegenstand.md" \
+  "04 Kapitelstruktur/04-04 Methodologie/04-04 Methodologie.md" \
+  "04 Kapitelstruktur/04-05 Ergebnisse/04-05 Ergebnisse.md" \
+  "04 Kapitelstruktur/04-06 Diskussion/04-06 Diskussion.md" \
+  "04 Kapitelstruktur/04-07 Conclusio/04-07 Conclusio.md" \
+  literaturverzeichnis.md \
+  "04 Kapitelstruktur/04-A Anhang/04-A Anhang.md" \
+  --filter pandoc-crossref \
   -o dissertation.pdf \
   --pdf-engine=xelatex \
   --citeproc
