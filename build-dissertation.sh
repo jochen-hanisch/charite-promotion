@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_ROOT="/Users/jochenhanisch-johannsen/Library/Mobile Documents/iCloud~md~obsidian/Documents/Jochen-Hanisch/Allgemein beruflich/Research/Promotion"
-cd "$PROJECT_ROOT"
+cd "$(dirname "$0")"  # geht in das Verzeichnis des Skripts
 
 pandoc \
   dissertation.md \
@@ -20,4 +19,4 @@ pandoc \
   --pdf-engine=xelatex \
   --citeproc
 
-echo "Fertig: $PROJECT_ROOT/dissertation.pdf"
+echo "Fertig: $(pwd)/dissertation.pdf"
